@@ -1,0 +1,4 @@
+category: X11
+requires: cygwin xproto fontsproto
+sdesc: "Xorg Font Server interface library (development)"
+ldesc: "Xorg Font Server interface library"

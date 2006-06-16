@@ -1,0 +1,5 @@
+category: X11
+requires: cygwin
+external-source: libFS
+sdesc: "Xorg Font Server interface library (runtime)"
+ldesc: "Xorg Font Server interface library"
