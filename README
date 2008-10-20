@@ -6,21 +6,20 @@ Runtime requirements:
   cygwin-1.5.20-1
 
 Build requirements:
-  cygwin-1.5.20-1
-  autoconf2.5-2.59-2
-  automake1.9-1.9.6-1
-  binutils-20050610-1
-  cygport-0.2.2-1
-  gawk-3.1.5-2
-  gcc-core-3.4.4-1
-  libtool1.5-1.5.22-1
-  make-3.80-1
-  pkg-config-0.20-1
-  sed-4.1.5-1
+  autoconf2.5-2.63-1
+  automake1.10-1.10.1-1
+  binutils-20080624-2
+  cygport-0.4.1-1
+  gawk-3.1.6-1
+  gcc-core-3.4.4-3
+  libtool-2.2.6a-1
+  make-3.81-1
+  pkg-config-0.23a-2
+  sed-4.1.5-2
   fontsproto-2.0.2-1
-  xorg-util-macros-1.0.2-1
-  xproto-7.0.4-1
-  xtrans-1.0.0-1
+  xorg-util-macros-1.1.6-1
+  xproto-7.0.13-1
+  xtrans-1.2.2-1
 
 Canonical website:
   http://xorg.freedesktop.org/
@@ -40,26 +39,25 @@ Build instructions:
 This will create:
   /usr/src/libFS-1.0.0-X-src.tar.bz2
   /usr/src/libFS-1.0.0-X.tar.bz2
+  /usr/src/libFS-devel-1.0.0-X.tar.bz2
   /usr/src/libFS6-1.0.0-X.tar.bz2
 
 -------------------------------------------
 
-Files included in the main package:
+Files included in the binary packages:
 
-  /usr/include/X11/fonts/FSlib.h
-  /usr/lib/libFS.dll.a
-  /usr/lib/libFS.la
-  /usr/lib/pkgconfig/libfs.pc
-  /usr/share/doc/Cygwin/libFS-1.0.0.README
-  /usr/share/doc/Cygwin/libFS6-1.0.0.README
+(libFS6)
+  /usr/bin/cygFS-6.dll
   /usr/share/doc/libFS-1.0.0/COPYING
   /usr/share/doc/libFS-1.0.0/ChangeLog
   /usr/share/doc/libFS-1.0.0/INSTALL
   /usr/share/doc/libFS-1.0.0/README
 
-Files included in the devel package:
-
-  /usr/bin/cygFS-6.dll
+(libFS-devel)
+  /usr/include/X11/fonts/FSlib.h
+  /usr/lib/libFS.dll.a
+  /usr/lib/libFS.la
+  /usr/lib/pkgconfig/libfs.pc
 
 ------------------
 
