@@ -1,4 +1,4 @@
-category: _source
+category: X11
 requires: libFS-devel
 sdesc: "X.Org Font Server interface library (source)"
 ldesc: "X.Org Font Server interface library"
