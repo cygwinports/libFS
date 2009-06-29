@@ -1,5 +1,5 @@
 category: X11
-requires: cygwin xproto fontsproto libFS6
+requires: xproto fontsproto libFS6
 external-source: libFS
 sdesc: "X.Org Font Server interface library (development)"
 ldesc: "X.Org Font Server interface library"
