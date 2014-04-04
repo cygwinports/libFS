@@ -1,5 +1,0 @@
-category: X11
-requires:
-external-source: libFS
-sdesc: "X.Org Font Server interface library (runtime)"
-ldesc: "X.Org Font Server interface library"

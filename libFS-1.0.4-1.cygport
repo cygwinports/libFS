@@ -1,6 +1,0 @@
-inherit xorg
-
-PKG_NAMES="${PN}6 ${PN}-devel"
-PKG_HINTS="runtime devel"
-libFS6_CONTENTS="usr/bin/*-6.dll usr/share/doc/"
-libFS_devel_CONTENTS="usr/include/ usr/lib/"
